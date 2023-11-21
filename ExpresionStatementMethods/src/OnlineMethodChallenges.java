@@ -1,4 +1,4 @@
-public class OnlineMethodChakkenges {
+public class OnlineMethodChallenges {
     public static void main(String[] args) {
 
     }
