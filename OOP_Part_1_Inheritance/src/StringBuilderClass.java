@@ -1,3 +1,7 @@
+import java.sql.Timestamp;
+import java.time.LocalDateTime;
+import java.time.ZoneOffset;
+
 public class StringBuilderClass {
     public static void main(String[] args) {
         System.out.println();
@@ -56,6 +60,7 @@ public class StringBuilderClass {
         helloWorldBuilderPlus.setLength(7);
         System.out.println(helloWorldBuilderPlus);
 
+        System.out.println(Timestamp.valueOf(LocalDateTime.now(ZoneOffset.UTC)));
     }
 
     public static void printInformation(String string){
